@@ -3,22 +3,21 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hola Mundo! <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <header class="header">
+    <div class="wrapper">
+      <div class="header-grid">
+        <div>
+          <h1>Social Media Dashboard</h1>
+          <p class="header-total">Total Followers: 23, 004</p>
+        </div>
+        <div class="dark-mode">
+          <p class="dark-mode-title">Dark Mode</p>
+          <input type="checkbox" class="checkbox" id="checkbox"/>
+          <label class="switch" for="checkbox"></label>
+        </div>
+      </div>
     </div>
+  </header>
   );
 }
 
