@@ -28,35 +28,35 @@ function TopCardList() {
             <span className="card-followers-number">28k</span>
             <span className="card-followers-title">Followers</span>
           </p>
-          <p class="card-today">
+          <p className="card-today">
             <img src="images/icon-up.svg" alt=""/>
             12 Today
           </p>
         </article>
-        <article class="card instagram">
-          <p class="card-title">
+        <article className="card instagram">
+          <p className="card-title">
             <img src="images/icon-instagram.svg" alt=""/>
             @LeonidasEsteban
           </p>
-          <p class="card-followers">
-            <span class="card-followers-number">6k</span>
-            <span class="card-followers-title">Followers</span>
+          <p className="card-followers">
+            <span className="card-followers-number">6k</span>
+            <span className="card-followers-title">Followers</span>
           </p>
-          <p class="card-today">
+          <p className="card-today">
             <img src="images/icon-up.svg" alt=""/>
             12 Today
           </p>
         </article>
-        <article class="card youtube">
-          <p class="card-title">
+        <article className="card youtube">
+          <p className="card-title">
             <img src="images/icon-youtube.svg" alt=""/>
             @LeonidasEsteban
           </p>
-          <p class="card-followers">
-            <span class="card-followers-number">12k</span>
-            <span class="card-followers-title">Followers</span>
+          <p className="card-followers">
+            <span className="card-followers-number">12k</span>
+            <span className="card-followers-title">Followers</span>
           </p>
-          <p class="card-today">
+          <p className="card-today">
             <img src="images/icon-up.svg" alt=""/>
             12 Today
           </p>
