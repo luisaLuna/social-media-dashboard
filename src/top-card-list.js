@@ -6,8 +6,10 @@ function TopCardList() {
        <section className="top-cards">
     <div className="wrapper">
       <div className="grid">
+        <Card username="@Luisa"/> 
         <Card/> 
-        <article className="card twitter">
+        <Card/> 
+        {/* <article className="card twitter">
           <p className="card-title">
             <img src="images/icon-twitter.svg" alt=""/>
             @LeonidasEsteban
@@ -48,7 +50,7 @@ function TopCardList() {
             <img src="images/icon-up.svg" alt=""/>
             12 Today
           </p>
-        </article>
+        </article> */}
       </div>
     </div>
   </section> 

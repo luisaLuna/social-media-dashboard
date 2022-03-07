@@ -1,11 +1,12 @@
 import React from 'react'
+import './card.css'
 
-function Card() {
+function Card(props) {
     return (
         <article className="card facebook">
           <p className="card-title">
             <img src="images/icon-facebook.svg" alt=""/>
-            @LeonidasEsteban
+          {props.username}
           </p>
           <p className="card-followers">
             <span className="card-followers-number">1483</span>
