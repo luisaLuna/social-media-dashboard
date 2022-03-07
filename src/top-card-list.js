@@ -7,8 +7,8 @@ function TopCardList() {
     <div className="wrapper">
       <div className="grid">
         <Card username="@Luisa"/> 
-        <Card/> 
-        <Card/> 
+        <Card username="@LuisaFer"/> 
+        <Card username="@Luna"/> 
         {/* <article className="card twitter">
           <p className="card-title">
             <img src="images/icon-twitter.svg" alt=""/>
