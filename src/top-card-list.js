@@ -11,19 +11,17 @@ const cardListData = [
   {
     username: '@Luna'
   },
-  {
-    username: '@LuFer'
-  },
 ]
 
 function TopCardList() {
     return (
        <section className="top-cards">
     <div className="wrapper">
-      <div className="grid">
-        <Card username="@Luisa"/> 
-        <Card username="@LuisaFer"/> 
-        <Card username="@Luna"/> 
+          <div className="grid">
+            {
+              cardListData.map((cardData) => <Card username={cardData.username}/> )
+            }
+      
         {/* <article className="card twitter">
           <p className="card-title">
             <img src="images/icon-twitter.svg" alt=""/>
