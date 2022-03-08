@@ -1,6 +1,21 @@
 import React from 'react'
 import Card from './card'
 
+const cardListData = [
+  {
+    username: '@LuisaF'
+  },
+  {
+    username: '@LuisaLu'
+  },
+  {
+    username: '@Luna'
+  },
+  {
+    username: '@LuFer'
+  },
+]
+
 function TopCardList() {
     return (
        <section className="top-cards">
