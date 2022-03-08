@@ -19,7 +19,7 @@ function TopCardList() {
     <div className="wrapper">
           <div className="grid">
             {
-              cardListData.map((cardData) => <Card key={cardData.username} username={cardData.username}/> )
+              cardListData.map(({ username }) => <Card key={username} username={username}/> )
             }
       
         {/* <article className="card twitter">
