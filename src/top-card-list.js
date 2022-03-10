@@ -3,13 +3,16 @@ import Card from './card'
 
 const cardListData = [
   {
-    username: '@LuisaF'
+    username: '@LuisaF',
+    id: 1,
   },
   {
-    username: '@LuisaLu'
+    username: '@LuisaLu',
+    id: 2,
   },
   {
-    username: '@Luna'
+    username: '@Luna',
+    id: 3,
   },
 ]
 
@@ -19,7 +22,7 @@ function TopCardList() {
     <div className="wrapper">
           <div className="grid">
             {
-              cardListData.map(({ username }) => <Card key={username} username={username}/> )
+              cardListData.map(({ username , id }) => <Card key={id} username={username}/> )
             }
       
         {/* <article className="card twitter">
