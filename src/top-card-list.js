@@ -7,7 +7,7 @@ const cardListData = [
     id: 1,
     followers: 1000,
     todayFollowers: 12,
-    icon: 'mages/icon-facebook.svg', 
+    icon: 'images/icon-facebook.svg', 
   },
   {
     username: '@LuisaLu',
