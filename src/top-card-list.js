@@ -6,16 +6,22 @@ const cardListData = [
     username: '@LuisaF',
     id: 1,
     followers: 1000,
+    todayFollowers: 12,
+    icon: 'mages/icon-facebook.svg', 
   },
   {
     username: '@LuisaLu',
     id: 2,
     followers: 1000,
+    todayFollowers: 12,
+    icon: 'images/icon-twitter.svg', 
   },
   {
     username: '@Luna',
     id: 3,
     followers: 1000,
+    todayFollowers: 12,
+    icon: 'images/icon-instagram.svg',
   },
 ]
 
