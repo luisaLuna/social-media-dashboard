@@ -5,14 +5,17 @@ const cardListData = [
   {
     username: '@LuisaF',
     id: 1,
+    followers: 1000,
   },
   {
     username: '@LuisaLu',
     id: 2,
+    followers: 1000,
   },
   {
     username: '@Luna',
     id: 3,
+    followers: 1000,
   },
 ]
 
